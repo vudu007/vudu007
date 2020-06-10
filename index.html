@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header section -->
+
+<head>
+	<!-- include meta descriptions and title tag -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Michael Odor">
+	<meta name="keywords" content="Michael Odor">
+	<meta name="author" content="Michael Odor">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Alice|Lobster&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="css/widget.css">
+	<title>Michael Odor | Portfolio</title>
+<script data-ad-client="ca-pub-4848728352015127" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+	<!-- side bar -->
+	<aside class="">
+		<span id="navclose" class="nav-close">&times;</span>
+		<div class="text-center top-image px-3 animated bounceInDown">
+			<img src="img/me3.jpg" title="Michael Odor">
+			<h2>Michael Odor</h2>
+			<small>Full Stack Developer</small> <br>
+			<small class="text-warning" style="font-size: 14px;">
+				<span id="theDate"> </span>
+				<span class="text-warning ml-2" id="countDown"></span>
+			</small>
+			<hr>
+		</div>
+		<!-- sidebar menu links -->
+		<div class="nav-li animated fadeInLeftBig">
+			<span class="navi-links nav-active" id="home-menu" title="Home"><i class="material-icons md-36"
+					style="color: #222;">home</i> Home</span>
+			<span class="navi-links is-active" title="About Me" id="about-menu"><i class="material-icons md-36"
+					style="color: #222;">person</i> About</span>
+			<span class="navi-links" title="My skills" id="counter-menu"><i class="material-icons md-36"
+					style="color: #222;">color_lens</i> Skills</span>
+			<span class="navi-links" title="My Projects" id="project-menu"><i class="material-icons md-36"
+					style="color: #222;">work</i> Projects</span>
+			<span class="navi-links" title="Contact Me" id="contact-menu"><i class="material-icons md-36"
+					style="color: #222;">settings_phone</i> Contact</span>
+		</div>
+	</aside>
+	<!-- audio player -->
+	<audio id="audio1">
+
+	</audio>
+	<!-- homepage -->
+	<div class="home">
+		<div class="home-light"></div>
+		<img src="img/bbb.jpg" id="img-body">
+		<div class="home-content">
+			<h1 class="head-2 mb-2 animated fadeInRightBig">HI</h1>
+			<h1 class="mb-3 intro animated bounceInDown">I'm <span class="text-warning">Michael Odor</span></h1>
+			<h2 class="haeone animated fadeInUpBig">A <span class="txt-type text-warning" data-wait="2000"
+					data-words='["Developer", "Penetration Tester/Ethical Hacker", "Problem Solver", "Tutor"]'></span><span
+					class="fadin text-warning"></span></h2>
+			<div id="successfully"></div>
+			<a href="javascript: void(0);" title="Contact me" class="btn1 font-weight-bold animated bounceInDown">Hire
+				me</a>
+		</div>
+		<div class="whatsap-widget ">
+			<div class="chat-banner hide animated">
+				<div class="chat-close">&times;</div>
+				<div class="chat-header">
+					<img src="img/me3.jpg">
+					<div class="desc">
+						<h6>Michael</h6>
+						<p>I am available 24/7 to answer all your questions!</p>
+					</div>
+				</div>
+				<div class="chat-body">
+					<div class="chat-text">
+						<h6>Michael</h6>
+						<p>Hi!</p>
+						<p>How can I help you?</p>
+						<small id="chat-date"></small>
+					</div>
+				</div>
+				<div class="chat-footer">
+					<a href="https://api.whatsapp.com/send?phone=2347085200630&text=how%20can%20i%20be%20of%20help"
+						target="_blank"><i class="fab fa-whatsapp mr-2"></i> Start chat</a>
+				</div>
+			</div>
+			<div class="chat-icon">
+				<a href="javascript: void(0);" class="icon-link" title="Chat me on WhatsApp"><i
+						class="fab fa-whatsapp"></i></a>
+			</div>
+
+		</div>
+
+	</div>
+
+	</div>
+	</div>
+	<!-- div content -->
+	<section class="body-content">
+		<div class="switch">
+			<label class="toggleswitch">
+				<span class="hide-dark"><i class="material-icons">brightness_4</i></span> <span class="hide-light"> <i
+						class="material-icons">wb_incandescent</i></span>
+			</label>
+		</div>
+		<div class="container-fluid">
+			<!-- about page -->
+			<div id="about">
+				<h3>About Me</h3>
+				<p>
+					<span class="light-red subhead animated infinte flip">I</span> Am A Developer, A Penetration
+					Tester/Ethical Hacker, Creative Thinker. I Am A Firm Believer That Any Issue Can Be Solved With A
+					Cup Of Tea And A Clean Perspective.
+				</p>
+				<p>
+					I'm a self-taught programmer with over two years of experience in the Industry. I specialize in
+					building beautiful and performing websites, and creating memorable brands and Identities with the
+					aim to reach, engage and convert leads.
+				</p>
+				<p>
+					I'm passionate about achieving transformational business results through socially-driven creative
+					marketing strategy. I've had the unique opportunity to work with a variety of cutting-edge digital
+					technology platforms.
+				</p>
+				<p>
+					My work is to make client's dream come true as i enjoy working for individuals, companies and
+					government. I always come up with solutions to meet their diverse needs.
+				</p>
+				<p>
+					I studied COMPUTER SCIENCE, I've spent a some years working as a developer.
+				</p>
+
+				<p>
+					I'm a go-getter, self-dependent and huge drive for success. I've studied so much on personal
+					development, career development, entrepreneurship.
+				</p>
+				<p>
+					<span class="light-red subhead animated infinte flip">S</span>ometimes we don't realized how far we
+					have come until we take a moment to pause, step outside ourselves and take the route and progress.
+					It feels like there is an overwhelming amount of information but the process of learning never
+					leaves the atmosphere of a our environment. Instead of utilizing that standard as a reason to worry
+					about not becoming an expert in tech field, I'm using it as a tool, and as an opportunity to acquire
+					as much knowledge as I'll like to and accept challenges when they approach me. There is always a
+					lesson in challenge.
+				</p>
+				<P>
+					One thing i always tell myself is as long as you got God and also the internet nothing is immposible
+					to achieve never let your self down because of what people say take confidence in what you do and
+					leave the rest to play out
+				</P>
+			</div>
+			<!-- project page -->
+			<div id="projects">
+				<h3>My Project</h3>
+				<p><span class="light-red subhead animated infinte flip">Y</span>ou know your business more than anyone
+					else and I have the caliber to give your website an appearance and feel that you find suitable
+					according to your vision and mission. I offer a fine hybrid of artistic expression and stylish
+					imagery to support your Company needs. I will provide you with a concept and design that best suites
+					your image.</p>
+				<div class="navigator-project">
+					<span class="all-p pactive">All Projects</span>
+					<span class="web-p ">Basic Websites</span>
+					<span class="wepapp-p">Web Apps</span>
+					<span class="wordpress-p">WordPress</span>
+				</div>
+				<div class="project-content">
+					<!-- <div class="project-box animated fadeInLeftBig WebPP">
+							<div class="imgbox">
+								<img src="img/5m1.jpeg" class="hover-shadow">
+							</div>
+							<div class="project-details">
+								<p>5mtelecom is an Internet subscription platform that provides affordable broadband Internet access as a catalyst for social & economic transformation.
+									<div class="text-center">
+										<a href="https://www.5mtelecom.com/" target="_blank" class="text-center"> <i class="fa fa-link"></i></a>
+									</div>
+								</p>
+								
+							</div>
+						</div> -->
+					<div class="project-box animated bounceInDown WordPressPP">
+						<div class="imgbox">
+							<img src="img/pnp1.jpeg">
+						</div>
+						<div class="project-details">
+							<p>Plush & Posh Construction is a construction company that provides professional business
+								model and high-quality projects.</p>
+							<div class="text-center">
+								<a href='#' class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								<!--https://pnpconstruction.ca/-->
+							</div>
+						</div>
+					</div>
+					<!-- <div class="project-box animated bounceInRight WordPressPP">
+							<div class="imgbox">
+								<img src="img/uni1.jpeg">
+							</div>
+							<div class="project-details">
+								<p>UandI is an e-commerce Website built on WordPress to utilize the functionality of woocommerce.</p>
+								<div class="text-center">
+									<a href="https://uandi.ng/" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								</div>
+							</div>
+						</div> -->
+					<!-- <div class="project-box animated fadeInLeftBig WepAPP">
+							<div class="imgbox">
+								<img src="img/p3.jpg" class="hover-shadow">
+							</div>
+							<div class="project-details">
+								<p>This Quiz App is built using core HTML, CSS and pure vanilla JavaScript[ES6]. It is designed to kill the boredom by answering few simple questions.
+									<div class="text-center">
+										<a href="https://vickzil.github.io/playquiz/" target="_blank" class="text-center"> <i class="fa fa-link"></i></a>
+									</div>
+								</p>
+								
+							</div>
+						</div> -->
+					<!-- <div class="project-box animated bounceInDown WebPP">
+							<div class="imgbox">
+								<img src="img/p7.jpg">
+							</div>
+							<div class="project-details">
+								<p>Newgate Technologies is an IT solution provider, with excellent UI/UX design. skills used are HTML,CSS, vuejs JavaScript framework and Bootstrap.</p>
+								<div class="text-center">
+									<a href="#" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								</div>
+							</div>
+						</div> -->
+					<div class="project-box animated fadeInRightBig WepAPP">
+							<div class="imgbox">
+								<img src="img/django blog.JPG">
+							</div>
+							<div class="project-details">
+								<p>Django blog is a blog built using django and python with simple UI/UX designs  using bootstrap4,heroku and google cloud storage for the images.</p>
+								<div class="text-center">
+									<a href="https://mikeblogapp.herokuapp.com/" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="project-box animated fadeInRightBig WepAPP">
+							<div class="imgbox">
+								<img src="img/todo.JPG">
+							</div>
+							<div class="project-details">
+								<p>Django todo app is an app built using django and python with simple UI/UX designs.</p>
+								<div class="text-center">
+									<a href="http://mikeodor.pythonanywhere.com/" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								</div>
+							</div>
+						</div>
+					<div class="project-box animated fadeInLeftBig WepAPP">
+						<div class="imgbox">
+							<img src="img/p10.jpeg">
+						</div>
+						<div class="project-details">
+							<p>Hospital management System that keeps records of staff, doctors, and patients.
+								<!--Tools used are JavaScript, PHP, MySQL-->
+							</p>
+							<div class="text-center">
+								<a href="#" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="project-box animated bounceInUp WepAPP">
+							 <div class="imgbox">
+								<img src="img/p11.jpeg">
+							</div> -->
+					<!-- <div class="project-details">
+								<p>Saturn Tech is a mobile/Internet subscription system that enables customers have access to relaible high speed broadband and large data.</p>
+								<div class="text-center">
+									<a href="http://5mtele.000webhostapp.com/" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								</div>
+							</div> 
+						</div> -->
+					<div class="project-box animated fadeInRightBig WebPP">
+						<div class="imgbox">
+							<img src="img/p14.jpg">
+						</div>
+						<div class="project-details">
+							<div class="pro-div">
+								<p>A simple one-page portfolio HTML,CSS and JavaScript.
+									<div class="text-center">
+										<a href="" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+									</div>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="project-box animated fadeInLeftBig WebPP">
+							<!- <div class="imgbox">
+								<img src="img/p12.jpg">
+							</div> -->
+					<!-- <div class="project-details">
+								<p>With some fantastics branding and design, I developed a simple, responsive, fast and flexible one page portfolio website.</p>
+								<div class="text-center">
+									<a href="https://vickzil.github.io/single-page-portofolio/" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								</div>
+							</div> --
+						</div> -->
+					<div class="project-box animated bounceInUp WepAPP">
+						<div class="imgbox">
+							<img src="img/p13.jpg">
+						</div>
+						<div class="project-details">
+							<p>Valintine is over and may want to share your experience, well this website is just for
+								you. Built with VueJs</p>
+							<div class="text-center">
+								<a href="#" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="project-box animated fadeInRightBig WebPP">
+						<div class="imgbox">
+							<img src="img/p6.jpg">
+						</div>
+						<div class="project-details">
+							<p>Event Management Company With easy navigation and excellent UI/UX. Tools used are
+								JavaScript, PHP, Bootstrap.
+								<div class="text-center">
+									<a href="#" class="text-center" target="_blank"> <i class="fa fa-link"></i></a>
+								</div>
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- contact page -->
+			<div id="contact">
+				<div class="form-success text-center">
+					<div class="message-icon mx-auto">
+						<div class="text-center">
+							<i class="fa fa-check animated infinte flip"></i>
+						</div>
+					</div>
+					<h6 class="h4 mb-0 mt-4" id="form-success"></h6>
+					<p class="text-muted mt-3 mb-5">
+						Thank you for contacting me. I'll get back to you as soon as I can.
+					</p>
+				</div>
+				<div class="contact-form">
+					<h3>Contact Me</h3>
+					<p><span class="light-red subhead animated infinte flip">I</span> love talking with like-minded
+						people and businesses, working together to make the world a better place. If you're interested
+						in chatting or want to Hire me, drop me a line and I'll get back to you as soon as I can.</p>
+					<p class="mt-5 ml-3"><span id="form-error"></span></p>
+					<form  action="https://formspree.io/meqlbdzq" method="POST" class="needs-validation for-form animated fadeInUpBig" >
+							<div class="row">
+								<div class="form-group fErr col-md-10 animated" id="">
+									<input type="hidden" name="">
+									<label for="fname" class="col-form-label">Fullname<span class="form-required text-danger">*</span></label>
+									<input type="text" placeholder="Enter Your Name" class="form-control animated validate"  name="fname" required>
+									<div class="helper-text" id="ferr"></div>
+								</div>
+								<div class="form-group eErr col-md-10 animated" id="">
+									<label for="email" class="col-form-label">Your E-mail<span class="form-required text-danger">*</span></label>
+									<input type="email" name="_replyto" placeholder=" johndoe@xyz.com" class="form-control animated validate" required>
+									<div class="helper-text" id="eerr"></div>
+								</div>
+								<div class="form-group mErr col-md-10 mr-auto animated" id="">
+									<label>Message<span class="form-required text-danger">*</span></label>
+									<textarea class="form-control animated" name="message" rows="9" placeholder="Your Message"></textarea>
+									<div class="helper-text" id="merr"></div>
+								</div>
+								<div class="form-group col-md-6 ml-1 mt-3">
+									<input type="submit" class="btn1" value="Submit">
+								</div>
+							</div>
+						</form>
+	
+				</div>
+			</div>
+			<!-- skills page -->
+			<div class="skills" id="counter">
+				<h3>My Skills</h3>
+				<p class="mb-4"><span class="light-red subhead animated infinte flip">Do</span> you have a business
+					idea, and need expert hands to help you take it online? Are you tired of working so hard on your
+					brand and in your business but having no income to show for it? Are you looking to learn programming
+					but dont know where to start? well, I'm here to help you.</p>
+				<p><span class="light-red subhead animated infinte flip">I</span> have acquired experience as a web
+					developer, Penetration Tester, Instructor and WordPress, creating responsive websites and combining
+					design and business logic to achieve a user-facing product.</p>
+				<p>In my experience, I have knowledge of integrating with and developing, as well as knowing how to
+					efficiently project manage and work with clients and colleagues successfully</p>
+				<div class="skills-content">
+					<!-- <div class="skills-box">
+							
+							<h4><span class="counter-value" data-count="90">17</span>%</h4>
+						</div> -->
+					<!-- PROGRESS BARS -->
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:80%;">
+							HTML & CSS 80%
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
+							ANGULAR 50%
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:70%;">
+							PYTHON % DJANGO 70%
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
+							Wordpress 50%
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:40%;">
+							JAVASCRIPT 40%
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:64%;">
+							IONIC % CORDOVA 64%
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
+							BOOTSTRAP 50%
+						</div>
+					</div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Micke -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4848728352015127"
+     data-ad-slot="6316745422"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+				</div>
+				<div class="row details">
+					<div class="col-md-12 skil">
+						<div class="skills-details mt-2">
+							<h4>
+								<span>
+									<i class="fa fa-code mr-3"></i>
+								</span>Web Development
+							</h4>
+							<p>
+								I create responsive websites that allow the user to experience your website in the best
+								and most appropriate way suited to the device they are using. By working using
+								progressive enhancement, your website is delivered with a responsive layout that can
+								best make use of the space available on the smallest to largest devices.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-12 skil lasti">
+
+					</div>
+					<div class="col-md-12 skil lasti">
+						<div class="skills-details">
+							<h4>
+								<span>
+									<i class="fab fa-wordpress mr-3"></i>
+								</span>WordPress
+							</h4>
+							<p>
+								In many projects, Client's require the ability to manage their website. WordPress is the
+								world's most popular content management system which I have experience with.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- include footer section -->
+		<footer>
+			<div class="container-fluid">
+				<p>copyright &copy; <span class="year"></span> | Michael Odor</p>
+			</div>
+		</footer>
+		</div>
+	</section>
+
+	<i class="fa fa-th burger-icon"></i>
+	<div class="body-overlay"></div>
+	<script src="js/script.js"></script>
+	<script src="js/control.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/form-validation.init.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"> </script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/scroll.js"></script>
+
+	<!-- script for controlling the audio volume -->
+	<script>
+		document.querySelector('.switch').classList.add('hide');
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/control.js"></script>
+	<script src="js/query.js"></script>
+
+
+</body>
+
+</html>
