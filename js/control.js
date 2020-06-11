@@ -244,14 +244,17 @@ $(document).ready(function () {
 	$('.all-p').click(function () {
 
 		$('.WepAPP').show(1300);
+		$('.devops').show(1300);
 		$('.WebPP').show(1300);
 		$('.WordPressPP').show(1300);
 		$('.all-p').delay(800).addClass('pactive');
 		$('.wepapp-p').removeClass('pactive');
 		$('.web-p').removeClass('pactive');
 		$('.wordpress-p').removeClass('pactive');
+		$('.devops').removeClass('pactive');
 
 	});
+
 
 
 	$('.wepapp-p').click(function () {
@@ -259,6 +262,7 @@ $(document).ready(function () {
 		$('.WepAPP').show(1300);
 		$('.WebPP').hide(1300);
 		$('.WordPressPP').hide(1300);
+		$('.devops').hide(1300);
 		$('.wepapp-p').delay(800).addClass('pactive');
 		$('.all-p').removeClass('pactive');
 		$('.web-p').removeClass('pactive');
@@ -272,6 +276,7 @@ $(document).ready(function () {
 		$('.WordPressPP').show(1300);
 		$('.WebPP').hide(1300);
 		$('.WepAPP').hide(1300);
+		$('.devops').hide(1300);
 		$('.wordpress-p').delay(800).addClass('pactive');
 		$('.all-p').removeClass('pactive');
 		$('.wepapp-p').removeClass('pactive');
@@ -285,6 +290,7 @@ $(document).ready(function () {
 		$('.WebPP').show(1300);
 		$('.WepAPP').hide(1300);
 		$('.WordPressPP').hide(1300);
+		$('.devops').hide(1300);
 		$('.web-p').delay(800).addClass('pactive');
 		$('.all-p').removeClass('pactive');
 		$('.wepapp-p').removeClass('pactive');
